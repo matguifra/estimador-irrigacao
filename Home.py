@@ -1,6 +1,6 @@
 import streamlit as st
 
-from utils import load_data  # Importando do nosso módulo
+from utils import load_data  # Importa função de carregamento de dados
 
 st.set_page_config(page_title="Home", page_icon="🌾")
 st.title("🌾 Estimador de Irrigação")
