@@ -2,6 +2,8 @@
 
 Bem-vindo ao repositório do Estimador de Irrigação Agrícola! Este projeto tem como objetivo desenvolver um modelo preditivo para estimar a quantidade de irrigação necessária para diferentes culturas agrícolas com base em variáveis ambientais e climáticas.
 
+Acesse o app: [Estimador de Irrigação Agrícola](https://estimador-irrigacao.streamlit.app/)
+
 ## Requisitos
 
 1. Tenha certeza de ter as seguintes bibliotecas instaladas:
