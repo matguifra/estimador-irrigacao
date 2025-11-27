@@ -5,7 +5,7 @@ import streamlit as st
 
 from utils import load_data
 
-st.set_page_config(page_title="Exploração dos Dados", layout="wide")
+st.set_page_config(page_title="Exploração dos Dados")
 # Se os dados não foram carregados por algum motivo
 if "df_agricola" not in st.session_state:
     df = load_data()  # Carrega os dados
@@ -26,10 +26,10 @@ st.dataframe(df.head())  # Mostra as primeiras linhas
 
 # --- DISTRIBUIÇÃO DA IRRIGAÇÃO (TARGET) ---
 st.header("Distribuição da Irrigação")  # Título da seção
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(6, 5))  # Cria a figura
 sns.histplot(df["irrigation"], kde=True, ax=ax, color="green")  # type: ignore
-ax.set(xlabel="Irrigação em mm", ylabel="Frequência")
-st.pyplot(fig)
+ax.set(xlabel="Irrigação em mm", ylabel="Frequência")  # Rótulos dos eixos
+st.pyplot(fig)  # Mostra o gráfico
 
 # --- BOXPLOT DAS VARIÁVEIS NUMÉRICAS ---
 st.header("Boxplots das Variáveis Numéricas")  # Título da seção

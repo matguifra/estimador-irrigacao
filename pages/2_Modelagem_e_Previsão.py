@@ -118,7 +118,7 @@ if st.sidebar.button("🚀 Treinar Modelo"):
 # Se o modelo foi treinado e as métricas produzidas
 if "trained_model" in st.session_state and "metrics" in st.session_state:
     st.divider()
-    st.header("Avaliação do Modelo")
+    st.header("📊 Avaliação do Modelo")
 
     metrics = st.session_state["metrics"]  # Puxa as métricas salvas
 
@@ -179,7 +179,7 @@ if "trained_model" in st.session_state and "metrics" in st.session_state:
 
 # --- 5. SIMULADOR DE PREVISÃO ---
 st.divider()
-st.header("Simulador de Irrigação")
+st.header("🔮 Estimador de Irrigação")
 
 # Se o modelo não foi treinado ainda
 if "trained_model" not in st.session_state:
