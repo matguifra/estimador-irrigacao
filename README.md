@@ -9,11 +9,13 @@ Bem-vindo ao repositório do Estimador de Irrigação Agrícola! Este projeto te
 **Vídeo explicativo da modelagem e avaliação do modelo: [YouTube](https://youtu.be/ggH5JufFH_M)**
 
 **Grupo 33**
-- João Rafael Gonçalves Ramos       - RM567908 - joaorafa-ramos
-- Letícia Angelim Guerra            - RM567501 - leticiaguerrasoares
-- Matheus Guimarães França          - RM567144 - matguifra
-- Rivando Bezerra Cavalcanti Neto   - RM568235 - RivandoNeto
-- Tales Ferraz de Arruda Domienikan - RM567483 - domienik
+|Nome                             |RM      |GitHub             |
+|---------------------------------|--------|-------------------|
+|João Rafael Gonçalves Ramos      |RM567908|joaorafa-ramos     |
+|Letícia Angelim Guerra           |RM567501|leticiaguerrasoares|
+|Matheus Guimarães França         |RM567144|matguifra          |
+|Rivando Bezerra Cavalcanti Neto  |RM568235|RivandoNeto        |
+|Tales Ferraz de Arruda Domienikan|RM567483|domienik           |
 
 ## Requisitos
 
